@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #d38312,#a83279);
+}
+.numBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    width: 40%;
+}
+.numBox h1 {
+    font-size: 20px;
+    font-weight:500;
+    color:#000;
+    margin-bottom: 10px;
+}
+.numBox .text {
+    margin-bottom: 10px;
+}
+.numBox #result {
+    margin-bottom: 10px;
+}
+.numBox #chanceText {
+    margin-bottom: 10px;
+}
+.numBox #userInput{
+    margin-bottom: 10px;
+    height: 30px;
+}
+.btnArea #btnPlay {
+    margin-right: 10px;
+    background: red;
+    border: none;
+    color: #fff;
+    height: 30px;
+    width: 60px;
+}
+.btnArea #btnReset{
+    background: skyblue;
+    border: none;
+    color: #fff;
+    height: 30px;
+    width: 60px;
+}
+
+
+.numBox #btnPlay.on {background: #898989;}
